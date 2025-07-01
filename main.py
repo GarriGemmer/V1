@@ -5,8 +5,8 @@ from flask import Flask, request
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+BOT_TOKEN = os.getenv("8141851346:AAEQY-xNLNh0c7zIKJ6VfQnOS_qLpULgO4Q")
+OPENROUTER_API_KEY = os.getenv("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")
 MODEL = "mistralai/devstarl-small:free"
 PORT = int(os.environ.get("PORT", 8080))
 
